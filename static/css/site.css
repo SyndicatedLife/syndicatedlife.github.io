@@ -37,11 +37,6 @@ email::before {
   -webkit-border-image: url('/static/images/border.png') 24 fill stretch;
   border-image: url('/static/images/border.png') 24 fill stretch;
 }
-.equal, .equal > div[class*='col-'] {
-    display: -webkit-flex;
-    display: flex;
-    flex:1 1 auto;
-}
 
 /* DROPPED TEXT */
 
