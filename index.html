@@ -2,81 +2,195 @@
 <html>
 
 <head>
-  <title>SyndicatedLife | Home</title>
-  <meta charset="utf-8">
-  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-  <meta content="Ryan Wilson" name="author">
-  <meta content="width=device-width" name="viewport">
-  <base target="_self">
-  <link href="/static/css/syndicatedlife.min.css" rel="stylesheet">
-  <style type="text/css">
+  <meta charset="UTF-8" />
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+  <meta content="Ryan Wilson" name="author" />
+  <meta content="width=device-width" name="viewport" />
+  <base target="_self" href="/" />
+  <title>Syndicated.Life</title>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="/static/css/site.css" rel="stylesheet" type="text/css" />
+  <link href="/static/css/bootstrap-social.css" rel="stylesheet" type="text/css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <style>
     body {
-      background-color: black;
-      padding-top: 70px;
-      padding-bottom: 40px;
+      padding-top: 50px;
+      background-image: url('/static/images/bg.jpg');
+      background-size: cover;
     }
   </style>
-  <script src="/static/js/vendor.min.js"></script>
-  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <script src="/static/js/syndicatedlife.min.js"></script>
 </head>
 
 <body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" id="home" name="home">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <strong>Syndicated</strong>.Life
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#resume">RESUME</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fixed Static Top Animated Bar -->
+  <div class="load-bar">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <!-- Content -->
   <div class="container">
-    <div class="row">
-      <ul class="social-buttons">
-        <li>
-          <a href="//github.com/Icehunter" target="blank">
-            <img src="/static/theme/github.png" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="//plus.google.com/+RyanWilson/" target="blank">
-            <img src="/static/theme/gplus.png" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="//ca.linkedin.com/in/SyndicatedLife" target="blank">
-            <img src="/static/theme/linkedin.png" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="//twitter.com/SyndicatedLife" target="blank">
-            <img src="/static/theme/twitter.png" alt="">
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="row">
-      <hr>
-    </div>
-    <div class="row">
-      <h1 class="shadow">het·er·o·ge·ne·i·ty
-            <small>noun:</small>
-        </h1>
-      <div>
-        <p style="font-style: italic">
-          &quot;the quality or state of being heterogeneous; composition from dissimilar parts; disparateness&quot;
+    <section id="home" name="home">
+      <div class="drop-it">het·er·o·ge·ne·i·ty</div>
+      <p class="text-center" style="font-style: italic">
+        <strong>noun</strong>: &quot;the quality or state of being heterogeneous; composition from dissimilar parts; disparateness&quot;
+      </p>
+      <div class="drop-it">per·son·i·fied</div>
+      <p class="text-center" style="font-style: italic">
+        <strong>verb</strong> (used with object): &quot;to be an embodiment or incarnation of; typify&quot;
+      </p>
+    </section>
+    <section id="resume" name="resume">
+      <hr/>
+      <div class="text-center">
+        <h3>About Ryan Wilson</h3>
+        <img class="avatar" src="/static/images/profile.jpg" />
+        <p>
+          Highly technical software engineer; passionate about graphics, security and user interface. I have an insatiable thirst for knowledge and challenging myself. I want to surround myself with smart, motivated and like-minded people in a work environment that can be fun and challenging while creating something wonderful.
         </p>
-      </div>
-    </div>
-    <div class="row">
-      <h1 class="shadow">per·son·i·fied
-            <small>verb (used with object):</small>
-        </h1>
-      <div>
-        <p style="font-style: italic">
-          &quot;to be an embodiment or incarnation of; typify&quot;
+        <p>
+          <strong>Specialties</strong>: HTML5/CSS3, Angular, React, ES6, NodeJS, NoSQL, AWS, REST Design & Architecture, and Isomorphic code.
         </p>
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-heading">Professional</div>
+            <div class="panel-body">
+              <p class="marginNone">Recognized as a subject matter expert in JavaScript and NodeJS development by my peers.</p>
+              <p class="marginNone">Architect environment and technology stacks to leverage the right tools in order to provide winning strategies and solutions.</p>
+              <p class="marginNone">Perform quapty code reviews on my peers pull requests and ensure feedback is given in a constructive and respectful manner.</p>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Open-Source</div>
+            <div class="panel-body">
+              <p class="marginNone">Regularly contribute to major open source projects, i.e.: Atom plugins, React modules, HapiJS packages.</p>
+              <p class="marginNone">Open-sourced my own application for the gaming community and participate in pull-request discussions.</p>
+              <p class="marginNone">Presented NodeJS to UBC students in a programming lecture with an insightful Q&amp;A.</p>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Gaming Community</div>
+            <div class="panel-body">
+              <p class="marginNone">Developer of a top-ranking application which has over 250,000 total users and 10,000 daily active.</p>
+              <p class="marginNone">Contribute to development of add-ons and a stable plugin architecture which services one of the largest MMORPG’s at this time.</p>
+              <p class="marginNone">Routinely field questions related to architecture and design for MVVM/WPF applications in C#.</p>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Leadership</div>
+            <div class="panel-body">
+              <p class="marginNone">Part of the mentoring program at Move Inc. and have helped advance the careers and knowledge of my peers and those outside the department.</p>
+              <p class="marginNone">Regarded as a team leader and help lead other teams to success with NodeJS.</p>
+              <p class="marginNone">Present topics for the Technology Advisory Group at Move Inc. including continuous integration and the git-flow management system.</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <hr>
-    </div>
-    <footer class="row">
-      <p>&copy; 2007 - 2015 Ryan Wilson </p>
-    </footer>
+    </section>
+    <section id="projects" name="projects">
+      <hr/>
+      <div class="text-center">
+        <h3>Projects</h3>
+        <p>
+          You can view my
+          <a class="btn btn-social-icon btn-social" href="https://github.com/Icehunter">
+            <span class="fa fa-fw fa-github"></span>
+          </a> to see all my projects; but my largest one to date is <a href="http://ffxiv-app.com">FFXIV-APP</a>
+        </p>
+        <div class="border">
+          <div id="highlights-carousel" class="carousel slide">
+            <div class="carousel-inner carousel-custom">
+              <div class="item active">
+                <img src="/static/images/carousel/highlights1.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="/static/images/carousel/highlights2.jpg" alt="">
+              </div>
+              <div class="item">
+                <img src="/static/images/carousel/highlights3.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" name="contact">
+      <hr/>
+      <div class="text-center">
+        <h3>Contact</h3>
+      </div>
+      <div class="text-center">
+        <p class="marginTop10">
+          Please send me an email:
+        </p>
+        <a class="btn btn-warning" onclick="email();">
+          <span class="fa fa-fw fa-envelope"></span>
+          <email data-user="syndicated.life" data-domain="gmail.com">@</email>
+        </a>
+        <p class="marginTop10">
+          You can also reach me over the following networks:
+        </p>
+        <a class="btn btn-social-icon btn-google" href="https://google.com/+RyanWilson" target="_blank">
+          <span class="fa fa-fw fa-google"></span>
+        </a>
+        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/SyndicatedLife" target="_blank">
+          <span class="fa fa-fw fa-twitter"></span>
+        </a>
+        <a class="btn btn-social-icon btn-linkedin" href="https://ca.linkedin.com/in/SyndicatedLife" target="_blank">
+          <span class="fa fa-fw fa-linkedin"></span>
+        </a>
+        <a class="btn btn-social-icon btn-github" href="https://github.com/Icehunter" target="_blank">
+          <span class="fa fa-fw fa-github"></span>
+        </a>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section id="footer" name="footer">
+      <hr/>
+      <div class="text-center">
+        &copy; 2007 - 2016 Ryan Wilson ~ All Rights Reserved
+      </div>
+    </section>
   </div>
 </body>
+
+<script>
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 6000
+    });
+  });
+
+  function email() {
+    window.location.href = 'mailto:' + $('email').attr('data-user') + '@' + $('email').attr('data-domain');
+  }
+</script>
 
 </html>
