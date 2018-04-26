@@ -17,6 +17,7 @@ html,
       background-size: contain;
       background-size: 60%;
       background-position: right bottom;
+      background-attachment: fixed;
     }
 
     body a {
@@ -71,4 +72,5 @@ html,
 
     blockquote {
       font-style: italic;
+      font-size: 0.9em;
     }
