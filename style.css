@@ -1,0 +1,76 @@
+html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      margin: 0px;
+      background-color: black;
+      font-family: Roboto, Helvetica Neue, Helvetica, sans-serif;
+      color: white;
+    }
+
+    body {
+      background-image: url("profile.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-size: 60%;
+      background-position: right bottom;
+      background-attachment: fixed;
+    }
+
+    body a {
+      color: orange;
+      text-decoration: none;
+    }
+
+    body {
+      margin: 0px;
+      background-color: black;
+      font-family: Helvetica Neue, Helvetica;
+      color: white;
+    }
+
+    body a {
+      color: orange;
+      text-decoration: none;
+    }
+
+    body a:hover {
+      color: skyblue;
+    }
+
+    body .social {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    body .content {
+      padding-left: 50px;
+      max-width: 50%;
+    }
+
+    body .content h1 {
+      font-weight: normal;
+      padding: 25px 0 0;
+      margin: 0px;
+      font-size: 80px;
+    }
+
+    body .content h3 {
+      margin: 5px 0 10px 10px;
+      padding: 0px;
+    }
+
+    body .content p {
+      font-size: 17px;
+      margin: 5px 0 5px 10px;
+      padding: 0px;
+    }
+
+    blockquote {
+      font-style: italic;
+      font-size: 0.9em;
+    }
